@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(12, 12, 164);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+.navbar-brand{
+    background: linear-gradient(to left, blue, yellow, blue, yellow, blue, yellow, blue, yellow, blue);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes animated{
+    to {background-position-x: 161px;}
+}

@@ -1,0 +1,20 @@
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+body{
+    background-color: blue;
+    color: yellow;
+}
+.volver{
+    display: flex;
+    justify-content: center;
+    
+}
+.volver1:hover{
+    background: yellow;
+    animation:0s;
+}

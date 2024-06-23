@@ -1,0 +1,32 @@
+body{
+    background-image: url(../imagenes/gol\ de\ Palermo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(83, 83, 255);
+    text-align: center;
+    font-size: 100px;
+}
+h2{
+    font-size: 80px;
+}
+main{
+    text-align: center;
+    color: rgb(167, 144, 15);
+}
+.azul{
+    color: rgb(83, 83, 255);
+}
+.volver{
+    display: flex;
+    justify-content: center;
+    
+}
+.volver1:hover{
+    background: yellow;
+    animation:0s;
+}
+
+

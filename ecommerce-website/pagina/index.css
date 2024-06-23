@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(62, 62, 177);
+}
+.conteiner1{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.card{
+    background-color: yellow;
+}
+.card3{
+    height:250px;
+}
+.card2{
+    height: 250px;
+}
+.card1{
+    height: 250px;
+}
+.navbar-brand{
+    background: linear-gradient(to left, blue, yellow, blue, yellow, blue, yellow, blue, yellow, blue);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes animated{
+    to {background-position-x: 161px;}
+}
+h2{
+    text-align: center;
+    padding: 1cm;
+}
